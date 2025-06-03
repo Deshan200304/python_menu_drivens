@@ -9,3 +9,10 @@ def multiply(x,y):
 
 def divide(x,y):
     return x / y 
+
+def menu():
+    print("Select operation:")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
