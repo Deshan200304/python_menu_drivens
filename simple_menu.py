@@ -23,5 +23,14 @@ while True:
             num1 = float(input("Enter first number: "))
             num2 = float(input("Enter second number: "))
 
+            if choice == '1':
+                print("ans: ", add(num1, num2))
+            elif choice == '2':
+                print("ans: ", subtract(num1, num2))
+            elif choice == '3':
+                print("ans: ", multiply(num1, num2))
+            elif choice == '4':
+                print("ans: ", divide(num1, num2))
+
     
 
