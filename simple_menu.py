@@ -33,6 +33,9 @@ while True:
                 print("ans: ", divide(num1, num2))
             elif choice == '5' :
                 break
+            else:
+                print("Invalid Input")
+menu()
 
     
 
